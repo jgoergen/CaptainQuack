@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/png" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAkACQAAD/4QBmRXhpZgAATU0AKgAAAAgABgESAAMAAAABAAEAAAMBAAUAAAABAAAAVgMDAAEAAAABAAAAAFEQAAEAAAABAQAAAFERAAQAAAABAAAWJVESAAQAAAABAAAWJQAAAAAAAYagAACxj//bAEMAAgEBAgEBAgICAgICAgIDBQMDAwMDBgQEAwUHBgcHBwYHBwgJCwkICAoIBwcKDQoKCwwMDAwHCQ4PDQwOCwwMDP/bAEMBAgICAwMDBgMDBgwIBwgMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDP/AABEIACAAIAMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP32VdlNA3HbmjG4fL0r5M/4Kvf8FXvBv/BKv4OWut6zajxH408QBm8MeGPNntP7f8i4tUu/9LS3mjt/JiuhL+9A37dq5J49DJ8mx2a42nl2XUnVrVHaMY6tv9EldttpJJttJNmc5xpxc5uyR6D+1r8e9Y+GHhaWPw7CFuFZTd6j5iAaZ+8h2L5ciESearMuV+51r4N/4JteHf2kI/8AgphrXiTUdcl8VeDfEjW//Cf68trpNl/aiQaVcx6eWt1PnQ7Jtkf7hV3FMvlSa7b/AIJR/Fa4+PmjWem+B7yHxH4Ct1KJqsai0XSlD3I8z7PIEmYSzQsu0j5evSv0P8C+BdJ+GfhOz0PQ7Y2el2G8QRec8pj3OXPzOSx+ZieTX8z8Dx47znijF5hxDGWFw1GbhCk00+aDcWuV2alB80asmrSu4pae79F4WeMWCxXBmIjQy5RrYmMqNT20Lyg01zWk0neE4pwcbR5kpSjzwaNtwW9tvavw2/4KIeNL7/gpJ/wXD8Sfse+JvFh0PTNO8qLwwXsBdR24l8OwavcnbEImbEtuv+tmJy3y8bkP7mshkmU/w9/evz9/4Icn9uwv8UP+G1DJs2aV/wAIeP8AiQf9Pn23/kE85/49P9d/wH+Kv6n4Y4mx2QY5ZllzSqJNRbSfLdW5o32kt016O6bT5cnzivltaVehGMnKMotSipK0k4vSSavZ7/J3Taf2D+zp+zj4M/ZF+Dej/Dv4eaKfD3g3w+bg6fp5vJ7z7P588tzJ+8uHeRsyyyPy5xnAwABXoKrg57njGKEX5f7xoJDLxXhYjE1cRVlXrycpybcpNtttu7bb1bb1berZ5cYqKstj/9k=">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>
+            Captain Quack central command!!
+        </title>
+
+        <link rel="stylesheet" href="site.css">
+        <style>
+            body {
+                background-color: #fff263;
+            }
+            h2 {
+                font-weight: bolder;
+                font-family: sans-serif;
+                filter: drop-shadow(3px 2px 1px rgba(255, 255, 255, 1));
+            }
+            .pad {
+                position: relative;
+                text-align:center;
+            }
+            .active {
+            }
+            .leftPad {
+            }
+            .rightPad {
+            }
+            .pressButton {
+                position: relative;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="container" style="margin-top: 10px">
+            <div class="row">
+                <center><h2>Captain Quack!!</h2></center>
+
+                <div class="row">
+                    <div class="six columns pad leftPad">
+
+                        <svg class="pressButton" width="200" height="200" style="filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.5));">
+            
+                            <defs>
+                                <radialGradient id="circleGradient" gradientUnits="userSpaceOnUse" cx="50%" cy="50%" r="59%">
+                                    <stop offset="0" style="stop-color: rgb(229, 255, 211);"></stop>
+                                    <stop offset="1" style="stop-color: rgba(113, 184, 63, 1)"></stop>
+                                </radialGradient>
+                                
+                                <radialGradient id="circleGradient2" gradientUnits="userSpaceOnUse" cx="50%" cy="50%" r="39%">
+                                    <stop offset="0" style="stop-color: rgb(229, 255, 211);"></stop>
+                                    <stop offset="1" style="stop-color: rgba(113, 184, 63, 1)"></stop>
+                                </radialGradient>
+                            </defs>
+                      
+                            <circle class="inactive"
+                                style="fill: url(#circleGradient); paint-order: fill; stroke: rgb(103, 125, 30); stroke-width: 3px;" 
+                                cx="50%" 
+                                cy="50%" 
+                                r="49%">
+                            </circle>
+                
+                            <circle class="active"
+                                style="display: none; fill: url(#circleGradient2); paint-order: fill; stroke: rgb(103, 125, 30); stroke-width: 3px;" 
+                                cx="50%" 
+                                cy="50%" 
+                                r="49%">
+                            </circle>
+                
+                        </svg>
+                    </div>
+
+                    <div class="six columns pad rightPad">
+
+                        <svg class="pressButton" width="200" height="200" style="filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.5));">
+        
+                            <defs>
+                                <radialGradient id="circleGradient" gradientUnits="userSpaceOnUse" cx="50%" cy="50%" r="59%">
+                                    <stop offset="0" style="stop-color: rgb(229, 255, 211);"></stop>
+                                    <stop offset="1" style="stop-color: rgba(113, 184, 63, 1)"></stop>
+                                </radialGradient>
+                                
+                                <radialGradient id="circleGradient2" gradientUnits="userSpaceOnUse" cx="50%" cy="50%" r="39%">
+                                    <stop offset="0" style="stop-color: rgb(229, 255, 211);"></stop>
+                                    <stop offset="1" style="stop-color: rgba(113, 184, 63, 1)"></stop>
+                                </radialGradient>
+                            </defs>
+                        
+                            <circle class="inactive"
+                                style="fill: url(#circleGradient); paint-order: fill; stroke: rgb(103, 125, 30); stroke-width: 3px;" 
+                                cx="50%" 
+                                cy="50%" 
+                                r="49%">
+                            </circle>
+                
+                            <circle class="active"
+                                style="display: none; fill: url(#circleGradient2); paint-order: fill; stroke: rgb(103, 125, 30); stroke-width: 3px;" 
+                                cx="50%" 
+                                cy="50%" 
+                                r="49%">
+                            </circle>
+                
+                        </svg>
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            
+            (function(window) {
+                
+                var xhr = new XMLHttpRequest();
+                var leftPad;
+                var rightPad;
+
+                window.onload = function() {
+
+                    leftPad = document.querySelector(".leftPad");
+                    rightPad = document.querySelector(".rightPad");
+
+                    leftPad.addEventListener(
+                        "mousedown",
+                        leftPadDown,
+                        false);
+
+                    leftPad.addEventListener(
+                        "mouseup",
+                        leftPadUp,
+                        false);
+
+                    leftPad.addEventListener(
+                        "touchstart",
+                        leftPadDown,
+                        false);
+
+                    leftPad.addEventListener(
+                        "touchend",
+                        leftPadUp,
+                        false);
+
+                    rightPad.addEventListener(
+                        "mousedown",
+                        rightPadDown,
+                        false);
+
+                    rightPad.addEventListener(
+                        "mouseup",
+                        rightPadUp,
+                        false);
+
+                    rightPad.addEventListener(
+                        "touchstart",
+                        rightPadDown,
+                        false);
+
+                    rightPad.addEventListener(
+                        "touchend",
+                        rightPadUp,
+                        false);
+                }
+
+                function leftPadDown(e) {
+
+                    e.preventDefault();
+                    e.currentTarget.querySelector(".active").style.display = "";
+                    e.currentTarget.querySelector(".inactive").style.display = "none";
+                    leftPad.classList.toggle('active');
+                    xhr.open('GET', 'leftStart');
+                    xhr.send(null);
+                }
+
+                function leftPadUp(e) {
+
+                    e.preventDefault();
+                    e.currentTarget.querySelector(".active").style.display = "none";
+                    e.currentTarget.querySelector(".inactive").style.display = "";
+                    leftPad.classList.toggle('active');
+                    xhr.open('GET', 'leftStop');
+                    xhr.send(null);
+                }
+
+                function rightPadDown(e) {
+
+                    e.preventDefault();
+                    e.currentTarget.querySelector(".active").style.display = "";
+                    e.currentTarget.querySelector(".inactive").style.display = "none";
+                    rightPad.classList.toggle('active');
+                    xhr.open('GET', 'rightStart');
+                    xhr.send(null);
+                }
+
+                function rightPadUp(e) {
+
+                    e.preventDefault();
+                    e.currentTarget.querySelector(".active").style.display = "none";
+                    e.currentTarget.querySelector(".inactive").style.display = "";
+                    rightPad.classList.toggle('active');
+                    xhr.open('GET', 'rightStop');
+                    xhr.send(null);
+                }
+
+            })(window);
+
+        </script>
+    </body>
+</html>
