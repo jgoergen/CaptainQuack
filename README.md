@@ -3,13 +3,11 @@ ESP8266 Wifi Controlled Captive Portal Remote Controlled Duck on a Tank.
 
 I needed a reason to prove out ESP8266 Captive portal technology, and I wanted to see if I could make some crappy motor drivers, so this monstrocity was born!
 
-< PHOTO OF CAPTAIN QUACK >
-
 ## Video walkthrough of the technical stuff
-[![Cambot Video](https://img.youtube.com/vi/nbJNLVBo_g4/0.jpg)](https://www.youtube.com/watch?v=nbJNLVBo_g4)
+[![Electronics / programming Video](https://img.youtube.com/vi/ebrvLE36LOU/0.jpg)](https://youtu.be/ebrvLE36LOU)
 
 ## Video walkthrough of the artsy stuff
-[![Cambot Video](https://img.youtube.com/vi/nbJNLVBo_g4/0.jpg)](https://www.youtube.com/watch?v=nbJNLVBo_g4)
+[![Artsy Video](https://img.youtube.com/vi/GBgtDFfEyP8/0.jpg)](https://youtu.be/GBgtDFfEyP8)
 
 ## Software
 The arduino code is very simple for this, the only real interesting bits are getting the Captive Portal to work on different devices.
@@ -45,9 +43,11 @@ Using the ESP SPIFFs file system takes alittle getting used to as well, but it's
 
 12. [A nice duck as your captain](https://www.amazon.com/gp/product/B00YMRZFE8/ref=ppx_yo_dt_b_asin_image_o00_s00?ie=UTF8&psc=1)
 
+I glued lego technics gears to small motors to make them drive the lego tank treads:
+![Lego Motor](https://github.com/jgoergen/CaptainQuack/blob/master/media/motorandgear.jpg?raw=true "Lego Motor")
 
 Crappy Circuit Schematic:
-< PHOTO OF CIRCUIT SCHEMATIC HERE >
+![Motor Driver Schematic](https://github.com/jgoergen/CaptainQuack/blob/master/media/motordrivercircuit.jpg?raw=true "Motor Driver Schematic")
 
 ## Some things to consider, and improve upon
 
